@@ -973,7 +973,7 @@ mod tests {
     use rusqlite::{Connection, Row};
 
     fn row_to_thong(r: &Row) -> anyhow::Result<Vec<Value>> {
-        Ok((0..r.column_count())
+        Ok((0..r.as_ref().column_count())
             .map(|i| r.get_ref(i).map(|e| e.into()))
             .collect::<Result<_, _>>()?)
     }

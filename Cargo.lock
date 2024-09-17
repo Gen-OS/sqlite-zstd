@@ -486,8 +486,8 @@ checksum = "d8adc4bb1803a324070e64a98ae98f38934d91957a99cfb3a43dcbc01bc56439"
 [[package]]
 name = "libsqlite3-sys"
 version = "0.30.1"
-source = "sparse+https://genos.jfrog.io/artifactory/api/cargo/genos-cargo-local/index/"
-checksum = "b7e166552c0d931761d178cc26e075babed1d220d4bc6e26b8971764b08b0bb0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2e99fb7a497b1e3339bc746195567ed8d3e24945ecd636e3619d20b9de9e9149"
 dependencies = [
  "cc",
  "pkg-config",
@@ -726,8 +726,8 @@ checksum = "7a66a03ae7c801facd77a29370b4faec201768915ac14a721ba36f20bc9c209b"
 [[package]]
 name = "rusqlite"
 version = "0.32.1"
-source = "sparse+https://genos.jfrog.io/artifactory/api/cargo/genos-cargo-local/index/"
-checksum = "6ee1dcd7557235c29d6938b22d6b9308cd839555564c4133cf53d51bb81bbdb8"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "7753b721174eb8ff87a9a0e799e2d7bc3749323e773db92e0984debb00019d6e"
 dependencies = [
  "bitflags 2.6.0",
  "fallible-iterator",
@@ -811,7 +811,7 @@ checksum = "3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67"
 
 [[package]]
 name = "sqlite-zstd"
-version = "0.3.3"
+version = "0.3.5"
 dependencies = [
  "anyhow",
  "chrono",

@@ -6,7 +6,7 @@ license = "LGPL-2.0-or-later"
 name = "sqlite-zstd"
 readme = "README.md"
 repository = "https://github.com/Gen-OS/sqlite-zstd"
-version = "0.3.4"
+version = "0.3.5"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [features]
@@ -50,7 +50,6 @@ structopt = {version = "0.3.26", optional = true}
 [dependencies.rusqlite]
 features = ["functions", "blob", "bundled", "array"]
 package = "rusqlite"
-registry = "genos"
 version = "0.32.1"
 
 [dev-dependencies]

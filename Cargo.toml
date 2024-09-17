@@ -4,9 +4,9 @@ description = "Extension for sqlite that provides transparent dictionary-based r
 edition = "2018"
 license = "LGPL-2.0-or-later"
 name = "sqlite-zstd"
-repository = "https://github.com/phiresky/sqlite-zstd"
-version = "0.3.2"
 readme = "README.md"
+repository = "https://github.com/phiresky/sqlite-zstd"
+version = "0.3.3"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [features]
